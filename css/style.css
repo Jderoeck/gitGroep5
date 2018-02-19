@@ -1,67 +1,28 @@
-body{
+body {
     color: #494e61;
     padding: 0;
     margin: 0;
 }
 
-a{
+a {
     margin: 10% 5% 0 0;
     text-decoration: none;
     color: #ffffff;
     background-color: #3b1cff;
     border-radius: 10px;
-   font-size: 2em;
+    font-size: 2em;
     height: 64px;
     line-height: 64px;
     padding: 0px 50px;
 }
 
-h1{
+h1 {
     font-size: 4em;
     height: 40px;
     margin: 0;
 }
-.emo{
-  height: 30px;
-    margin-right: 10px;
-    width: auto;  
-}
-.angryEmo{
-    height: 70px;
-    margin-right: 20px;
-}
 
-.section{
-    margin: 0;
-    height: 100vh;
-    display: flex;
-    justify-content:space-between;
-    align-content: flex-start;
-    flex-wrap: wrap;
-}
-.intro{
-    background-color: #dcdcdc;
-}
-
-.info{
-    flex-direction: row-reverse;
-    padding: 5% 5% 0 20%;
-}
-
-.title{
-    margin: 10% 0 0 5%;
-    width: 50%;
-}
-
-.welcomeText{
-    margin: 5% 0 0 5%;
-    font-size: 2em;
-    height: 100px;
-    width: 350px;
-    padding 0;
-}
-
-p{
+p {
     height: 100px;
     width: 350px;
     font-size: 1.5em;
@@ -69,8 +30,96 @@ p{
     margin: 0 20px 50px;
 }
 
-.slimmer{
+.section {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+/*homepage*/
+.home {
+    background-color: #dcdcdc;
+}
+
+.info {
+    flex-direction: row-reverse;
+    padding: 5% 5% 0 20%;
+    height: auto;
+}
+
+.logo {
+    margin: 10% 0 0 5%;
+    width: 50%;
+}
+
+.welcomeText {
+    margin: 5% 0 0 5%;
+    font-size: 2em;
+    height: 100px;
+    width: 350px;
+    padding 0;
+}
+
+.emo {
+    height: 30px;
+    margin-right: 10px;
+    width: auto;
+}
+
+.angryEmo {
+    height: 70px;
+    margin-right: 20px;
+}
+
+.slimmer {
     margin-top: 50px;
 }
 
+/*vraag page*/
+.vraag{
+    justify-content: center;
+   align-items: center;
+       height: 50vh;
+    background-color: #ffeef0;
+}
+.formVraag{
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
 
+.labelVraag{
+   width: 60%;
+    color: #fa5b33;
+    height: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.textVraag{
+    width: 100%;
+    font-size: 2.5em;
+    padding: 5px 20px;
+    margin-bottom: 10px;
+    border-width: 1px;
+    border-color: #fa5b33;
+    color: #494e61;
+}
+.knopVraag{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #3b1cff;
+    border-radius: 10px;
+    font-size: 2em;
+    height: 64px;
+    line-height: 64px;
+    padding: 0px 50px;
+}
+.topics{
+    display: flex;
+    justify-content: center;
+}
