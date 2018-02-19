@@ -21,6 +21,15 @@ h1{
     height: 40px;
     margin: 0;
 }
+.emo{
+  height: 30px;
+    margin-right: 10px;
+    width: auto;  
+}
+.angryEmo{
+    height: 70px;
+    margin-right: 20px;
+}
 
 .section{
     margin: 0;
